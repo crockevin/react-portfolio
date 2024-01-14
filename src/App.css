@@ -1,6 +1,8 @@
+
 body {
   margin: 0;
   padding-bottom: 6rem;
+  background-color: rgb(175, 175, 175);
 }
 
 #navbar {
@@ -82,6 +84,14 @@ footer {
 input, textarea {
   font-size: 2rem;
   resize: none;
+  background-color: rgb(175, 175, 175);
+}
+.email-form button {
+  font-size: 2rem;
+}
+#validEmail {
+  color: red;
+  font-size: 1.5rem;
 }
 .repos {
   display: flex;
@@ -90,7 +100,7 @@ input, textarea {
 }
 .repos a {
   text-decoration: none;
-  color: whitesmoke;
+  color: rgb(175, 175, 175);
 }
 
 .repo {
@@ -131,7 +141,7 @@ input, textarea {
 .resume a {
   font-size: xx-large;
   color: whitesmoke;
-  border: 3px solid whitesmoke;
+  border: 3px solid rgb(175, 175, 175);
   padding: 0.5rem;
 }
 .resume h3 {
@@ -192,7 +202,7 @@ ul {
   .email-form {
     font-size: 2.5rem;
   }
-  input, textarea {
+  input, textarea, .email-form button {
     font-size: 1.5rem;
   }
 }

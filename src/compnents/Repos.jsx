@@ -1,4 +1,4 @@
-const projects = [
+const projects = [ // List of my projects
   {
     id: 1,
     name: "Weather Forecast",
@@ -46,11 +46,11 @@ const projects = [
 export default function Repos() {
   return (
     <div className="repos">
-      {projects.map((item) => (
+      {projects.map((item) => (// maps through the repos and displays the values
         <div key={item.id} className="repo">
-          {item.name}{" "}
+          {item.name}
           <a href={item.link} target="_blank" rel="noreferrer">
-            <img src={item.imgPath} />
+            <img src={item.imgPath} alt={item.codeUsed}/>
             <br/>
             Visit here
           </a>

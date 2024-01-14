@@ -2,7 +2,7 @@ export default function Resume() {
   return (
     <div className="resume-box">
       <div className="resume">
-        <a href="resume.pdf" download="resume.pdf">
+        <a href="resume.pdf" download="resume.pdf"> {/*Downloads resume */}
           Resume
         </a>
         <h3>Frontend</h3>
