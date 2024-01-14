@@ -1,6 +1,8 @@
 body {
   margin: 0;
+  padding-bottom: 6rem;
 }
+
 #navbar {
   display: flex;
   background-color: rgb(11, 19, 43);
@@ -8,6 +10,7 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+
 .links a {
   color: whitesmoke;
   text-decoration: none;
@@ -15,14 +18,18 @@ body {
   padding-right: 2rem;
   font-size: 3vh;
 }
+
 .name {
   font-size: 7vh;
   color: whitesmoke;
+  padding-left: 1rem;
 }
+
 a img {
   max-height: 6vh;
   padding: 0 1rem 0 1rem;
 }
+
 footer {
   text-align: center;
   padding: 1rem;
@@ -32,38 +39,160 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
 .about-me {
   display: flex;
+  flex-direction: column;
+  font-size: large;
+  align-items: center;
+  padding-top: 2.5rem;
 }
-.about-me img{
+
+.infoDump img {
   padding: 1rem;
+  border-radius: 25%;
+  max-width: 400px;
+}
+.infoDump {
+  text-align: center;
+  align-items: center;
+  border: 5px solid rgb(11, 19, 43);
+  padding: 1rem;
+  background-color: rgb(84, 94, 123);
+  color: whitesmoke;
+}
+.form-box {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem;
+  
 }
 .email-form {
   text-align: center;
   align-items: center;
-  display: flex;
-  flex-direction:column ;
+  border: 5px solid rgb(11, 19, 43);
+  padding: 2rem;
+  background-color: rgb(84, 94, 123);
+  color: whitesmoke;
+  font-size: 3rem;
 }
+input, textarea {
+  font-size: 2rem;
+  resize: none;
+}
+.repos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.repos a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.repo {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 3rem;
+  border: 5px solid rgb(11, 19, 43);
+  background-color: rgb(84, 94, 123);
+  color: whitesmoke;
+  margin: 1rem;
+}
+.repo img {
+  max-width: 220px;
+  max-height: 220px;
+  width: auto;
+  height: auto;
+
+}
+.resume-box {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem;
+}
+.resume {
+  text-align: center;
+  align-items: center;
+  display: inline-block; /* Use inline-block to make the container only as wide as its content */
+  border: 5px solid rgb(11, 19, 43);
+  padding: 2rem;
+  background-color: rgb(84, 94, 123);
+  color: whitesmoke;
+  font-size: large;
+}
+.resume a {
+  font-size: xx-large;
+  color: whitesmoke;
+  border: 3px solid whitesmoke;
+  padding: 0.5rem;
+}
+.resume h3 {
+  font-size: x-large;
+}
+ul {
+  padding: 0;
+  list-style: none;
+}
+
 @media only screen and (max-width: 1300px) {
   .links {
     display: flex;
     flex-direction: column;
   }
+  .about-me img {
+    max-width: 75%;
+  }
 }
+
 @media only screen and (max-width: 600px) {
   #navbar {
     flex-direction: column;
   }
+
   .name {
     font-size: 2vh;
   }
+
   .links {
     flex-direction: row;
     flex-wrap: wrap;
   }
+
   .links a {
     padding-left: 1rem;
     padding-right: 1rem;
     font-size: 1.5vh;
+  }
+  .about-me {
+    margin: 1rem;
+  }
+  
+
+  .repos {
+    flex-direction: column;
+  }
+
+  .repo img {
+    max-width: 300px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+  }
+  .repo {
+    margin: 0 1rem 0 1rem;
+  }
+  .email-form {
+    font-size: 2.5rem;
+  }
+  input, textarea {
+    font-size: 1.5rem;
   }
 }
