@@ -1,4 +1,5 @@
 const projects = [
+  // List of my projects
   {
     id: 1,
     name: "Weather Forecast",
@@ -46,16 +47,23 @@ const projects = [
 export default function Repos() {
   return (
     <div className="repos">
-      {projects.map((item) => (
-        <div key={item.id} className="repo">
-          {item.name}{" "}
-          <a href={item.link} target="_blank" rel="noreferrer">
-            <img src={item.imgPath} />
-            <br/>
-            Visit here
-          </a>
-        </div>
-      ))}
+      {projects.map(
+        (
+          item // maps through the repos and displays the values
+        ) => (
+          <div key={item.id} className="repo">
+            {item.name}
+            <a href={item.link} target="_blank" rel="noreferrer">
+              <div className="img-box">
+                <img src={item.imgPath} />
+                <span className="codeUsed">{item.codeUsed}</span>
+              </div>
+              <br />
+              Visit here
+            </a>
+          </div>
+        )
+      )}
     </div>
   );
 }

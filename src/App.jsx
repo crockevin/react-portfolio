@@ -10,14 +10,14 @@ import { Route, Routes } from 'react-router-dom'
 function App() {
   return (
     <>
-      <Header />
-      <Routes>
+      <Header /> {/*Loads header at all times */}
+      <Routes> {/*Swtiches loaded compenents based on url path */}
         <Route path="/" element={<AboutMe />} />
         <Route path="/contact-me" element={<ContactMe />} />
         <Route path="/repos" element={<Repos />} />
         <Route path='/resume' element={<Resume />} />
       </Routes>
-      <Footer />
+      <Footer /> {/*Loads footer at all times */}
     </>
   )
 }
