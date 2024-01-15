@@ -28,7 +28,7 @@ export default function ContactMe() {
     emailjs.sendForm(serviceId, templateId, form.current, publicKey)
       .then((result) => {
         console.log(result.text)
-        setEmail('') // resets values to cleasr form without reload
+        setEmail('') // resets values to clears form without reload
         setName('')
         setMessage('')
       })
@@ -58,8 +58,8 @@ export default function ContactMe() {
         </label>
         <br />
         {!validEmail &&
-          <p id="validEmail">Email not valied</p>}
-        <button type="submit" disabled={!validEmail}>
+          <p id="validEmail">Email not valied</p>} {/*shows if email is not valid */}
+        <button type="submit" disabled={!validEmail}> {/*button is disabled if email is not valid */}
           Send Email
         </button>
       </form>
