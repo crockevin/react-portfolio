@@ -1,8 +1,42 @@
-# React + Vite
+# react-portfolio
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+## Table of contents
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[Description](#description)
 
-Currently, two official plugins are available:
+[Usage](#usage)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Screenshot](#screenshot)
+
+[License](#license)
+
+[Question](#question)
+
+[Link](#link)
+
+
+## Description
+
+  I made this app have text editor that can be installed as a pwa and used offline
+## Usage
+
+  click through the link on the navbar to view different components of the page, 
+  for contact me enter your name, your valid email, and message the hit send email,
+  for resume, you can clcik resume to downlaod my resume
+## Screenshot
+![Alt text](<screenshots/Web capture_14-1-2024_23303_localhost.jpeg>)
+![Alt text](<screenshots/Web capture_14-1-2024_232921_localhost.jpeg>)
+![Alt text](<screenshots/Web capture_14-1-2024_232938_localhost.jpeg>)
+![Alt text](<screenshots/Web capture_14-1-2024_232949_localhost.jpeg>)
+## License
+
+    MIT, https://opensource.org/licenses/MIT
+## Question
+
+  To reach me for questions about this project:
+
+  https://github.com/crockevin
+
+  crochedengren@gmail.com
+## Link
+
