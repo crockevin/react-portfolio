@@ -17,7 +17,7 @@
 
 ## Description
 
-  I made this app have text editor that can be installed as a pwa and used offline
+  My React Portfolio
 ## Usage
 
   click through the link on the navbar to view different components of the page, 
