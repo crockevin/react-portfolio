@@ -17,7 +17,7 @@ export default function Resume() {
           <li>Mongo Db</li>
           <li>React js</li>
         </ul>
-        <a href="resume.pdf" download="resume.pdf"> {/*Downloads resume */}
+        <a href="Resume.pdf" download="Resume.pdf"> {/*Downloads resume */}
           Resume
         </a>
       </div>
